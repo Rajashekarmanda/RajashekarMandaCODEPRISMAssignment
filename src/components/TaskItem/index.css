@@ -1,0 +1,53 @@
+.task-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 120%;
+  height: 50px;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 15px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 2px;
+  border-color: black;
+  height: 40px;
+  width: 80%;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 15px;
+}
+.task-name {
+  color: black;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.delete-button {
+  border: 0px;
+  background-color: transparent;
+}
+.strike-of {
+  text-decoration: line-through;
+  /* background-color: lightgray; */
+  /* color: white; */
+  /* height: 35px; */
+}
+.done {
+  background-color: lightgray;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0px;
+  margin-left: 20px;
+  height: 30px;
+  padding: 2px;
+}

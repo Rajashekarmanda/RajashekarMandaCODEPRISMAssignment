@@ -1,0 +1,101 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  padding: 10px;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 100%;
+  /* background-color: whitesmoke; */
+}
+.todos-heading {
+  color: black;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-right: 350px;
+  /* background-color: whitesmoke; */
+  height: 60px;
+  padding: 2px;
+  /* box-shadow: aqua; */
+}
+.create-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 35vh;
+}
+.create-task-heading {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.create-task-heading-spam {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.input {
+  height: 50px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.add-button {
+  height: 45px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.tasks-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50vh;
+  width: 80%;
+  /* border: 2px solid red; */
+  margin-right: 220px;
+  margin-top: 20px;
+}
+.save-button {
+  height: 32px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 20px;
+}
+.line {
+  border: 1px solid black;
+  width: 80%;
+  margin-right: 220px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
